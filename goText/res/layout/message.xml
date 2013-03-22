@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<AutoCompleteTextView
+    android:id="@+id/phoneList"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/textview_contacts"  
+    android:textColor="@android:color/black">
+</AutoCompleteTextView>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:minLines="5"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:singleLine="false" />
+       <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendSMS"
+        android:onClick="onClick"
+        android:enabled="true"
+        android:text="@string/button_send"/>
+
+</LinearLayout>

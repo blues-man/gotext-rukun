@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.gotext"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    
+     <uses-permission android:name="android.permission.INTERNET" />
+	 <uses-permission android:name="android.permission.READ_CONTACTS" />
+	  <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    
+    
+
+    <application
+        android:name=".logic.goTextApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".goTextActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SettingsActivity"
+                  android:label="@string/menu_settings"
+           		  android:configChanges="locale">
+            
+        </activity>
+        <activity android:name=".NetworkActivity"
+                  android:label="@string/connect_test">
+        </activity>
+        <activity android:name=".DownloadServicesActivity"
+                  android:label="@string/menu_download_services">
+        </activity>
+        <activity android:name=".AutoCompleteMessageActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".MessageActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".SelectServiceActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".ServiceSettingsActivity"
+                  android:label="@string/title_service_settings">
+        </activity>
+        <activity android:name=".SettingsServiceActivity"
+                  android:label="@string/menu_services">
+        </activity>
+           <activity android:name=".AboutActivity"
+                  android:label="@string/menu_about">
+        </activity>
+        
+        
+        
+        
+    
+    </application>
+    
+</manifest>

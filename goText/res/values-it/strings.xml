@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">goText</string>
+    <string name="hello_world">Ciao Mondo!</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="title_activity_main">goText</string>
+    <string name="welcome">Benvenuti in goText Rukun!</string>
+    <string name="app_descr">Questa è la prima volta che esegui goText, per configurarlo premi su Continua</string>
+    <string name="button_next">Continua</string>
+    <string name="button_select">Seleziona</string>
+    <string name="text_lang">Lingua:</string>
+	<string name="default_int_prefix">Prefisso int. default:</string>
+ 	<string name="textview_contacts">A:</string>
+ 	<string name="button_send">Invia</string>
+ 	<string name="no_items">Nessun servizio installato</string>
+ 	<string name="menu_exit">Esci</string>
+ 	<string name="edit_nick">Mittente:</string> 
+ 	<string name="optional">Opzionale</string>
+ 	<string name="empty_fields">Manca qualcosa?</string>
+ 	<string name="send_sms">Invio SMS in corso..</string>
+ 	<string name="sent_sms">SMS Inviato!</string>
+    <string name="error_sms">Errore</string>
+    <string name="error_sms_sent">SMS non inviato</string>
+    <string name="services_download">Servizi scaricati!</string>
+    <string name="services_start">Premi OK per iniziare a messaggiare con goText</string>
+    <string name="press_ok">Premi OK per continuare</string>
+    <string name="wait">Attendere prego..</string>
+    <string name="retrieving">Recupero dati in corso..</string>
+    <string name="preparing_download">Preparazione al download..</string>
+    <string name="missing_conf">CONFIGURAZIONE MANCANTE!</string>
+    <string name="menu_services">Configurazione Servizi</string>
+    <string name="menu_download_services">Scarica Servizi</string>
+    <string name="default_service">Servizio di default</string>
+    <string name="none">Nessuno</string>
+    <string name="menu_about">Info</string>
+    <string name="back">Indietro</string>
+    <string name="progress_retrieved">Recuperati</string>
+    <string name="progress_services">servizi..</string>
+    <string name="connect_test">Test Connessioni</string>
+    <string name="title_service_settings">Impostazione Servizio</string>
+    <string name="menu_delete_service">Elimina Servizio</string>
+    <string name="apply">Applica</string>
+ 	
+ 	
+ 	 
+</resources>
