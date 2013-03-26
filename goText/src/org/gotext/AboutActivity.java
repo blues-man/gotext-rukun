@@ -18,7 +18,6 @@ public class AboutActivity extends Activity {
 	    	 switch (view.getId()) {
 	    	 case R.id.buttonInfo:
 	    		 finish();
-	    		 
 	             break;
 	    	 }
 	    }

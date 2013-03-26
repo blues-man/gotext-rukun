@@ -126,7 +126,7 @@ public class SettingsActivity extends Activity implements OnItemSelectedListener
 	  //setContentView(R.layout.settings);
 	  Log.i(this.getLocalClassName(),"new config");
 	  buildUi();
-	  setTitle(getString(R.id.menu_settings));
+	  setTitle(getString(R.string.menu_settings));
 
 
 
